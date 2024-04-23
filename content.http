@@ -1,0 +1,49 @@
+###
+### Find All Content
+GET http://localhost:8080/api/content/Technicians
+
+
+###
+GET http://localhost:8080/
+
+
+###
+GET http://localhost:8080/api/countries/admin
+
+### Get Content by ID
+GET http://localhost:8080/api/content/1
+
+
+### Create new Content
+POST http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+  "id": 3,
+  "title": "First content",
+  "description": " content",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2024-04-20T14:09:27.184902",
+  "dateUpdated": null,
+  "url": ""
+}
+
+### Update existing Content
+PUT http://localhost:8080/api/content/1
+Content-Type: application/json
+
+{
+"id": 1,
+"title": "My First Post",
+"description": "Second Post",
+"status": "IDEA",
+"contentType": "ARTICLE",
+"dateCreated": "2024-04-20T14:09:40.184902",
+"dateUpdated": null,
+"url": "http://localhost:8080/"
+}
+
+
+### Delete by ID
+DELETE http://localhost:8080/api/content/20

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "cc",
+      "type": "com.example.myproject.config.ContentCalenderProperties",
+      "sourceType": "com.example.myproject.config.ContentCalenderProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cc.about",
+      "type": "java.lang.String",
+      "sourceType": "com.example.myproject.config.ContentCalenderProperties"
+    },
+    {
+      "name": "cc.welcome-message",
+      "type": "java.lang.String",
+      "sourceType": "com.example.myproject.config.ContentCalenderProperties"
+    }
+  ],
+  "hints": []
+}
